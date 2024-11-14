@@ -1,0 +1,39 @@
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 20px;
+}
+
+h1 {
+    color: #3b82f6;
+    text-align: center;
+}
+
+.content {
+    max-height: 200px;
+    overflow-y: scroll;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: white;
+    margin: 10px 0;
+}
+
+/* Custom Scrollbar styles */
+.custom-scrollbar::-webkit-scrollbar {
+    width: 8px; /* Scrollbar width */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background-color: #e5e7eb; /* Track color */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #3b82f6; /* Thumb color */
+    border-radius: 10px; /* Rounded edges */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: #2563eb; /* Thumb color on hover */
+}
